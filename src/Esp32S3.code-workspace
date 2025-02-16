@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../Volumes/Project/Esp32S3"
+		},
+		{
+			"name": "XIAO_ESP32S3_SENSE_KWS_RECORDING",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

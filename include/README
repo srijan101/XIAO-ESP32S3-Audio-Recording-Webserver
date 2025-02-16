@@ -1,0 +1,33 @@
+# Audio Recording for Keyword Spotting
+
+This project enables audio recording using the XIAO ESP32S3 SENSE for creating training data for keyword spotting models in Edge Impulse.
+
+## Project Overview
+- Records audio samples using the onboard PDM microphone
+- Designed specifically for the XIAO ESP32S3 SENSE board
+- Creates audio files suitable for Edge Impulse training
+- Focused on keyword spotting (KWS) applications
+
+## Hardware Requirements
+- Seeed Studio XIAO ESP32S3 SENSE
+- USB cable for power and data transfer
+- Computer for data collection
+
+## Data Collection
+The recorded audio samples can be:
+- Used to train custom wake word models
+- Uploaded directly to Edge Impulse
+- Used for keyword spotting model development
+
+## Usage
+1. Connect your XIAO ESP32S3 SENSE to your computer
+2. Upload this code to the board
+3. Follow the serial monitor instructions to record samples
+4. Collect both keyword and background noise samples
+
+## Further Resources
+- [Edge Impulse Documentation](https://docs.edgeimpulse.com)
+- [XIAO ESP32S3 SENSE Wiki](https://wiki.seeedstudio.com/xiao_esp32s3_sense)
+
+---
+Developed by Srijan Ghimire 2025
